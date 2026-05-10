@@ -1,0 +1,5 @@
+<![LOG[Executing task sequence... ]LOG]!><time="12:01:31.123" date="02-10-2025" component="TSManager" thread="4560">
+<![LOG[Downloading content from DP...]LOG]!><time="12:01:32.555" date="02-10-2025" component="ContentAccess" thread="4560">
+<![LOG[Content location request failed with error 0x80070002]LOG]!><time="12:01:35.111" date="02-10-2025" component="ContentAccess" thread="4560">
+<![LOG[Failed to resolve source for content]LOG]!><time="12:01:35.200" date="02-10-2025" component="ContentAccess" thread="4560">
+<![LOG[Failed to run task sequence (0x80070002)]LOG]!><time="12:01:36.310" date="02-10-2025" component="TSManager" thread="4560">

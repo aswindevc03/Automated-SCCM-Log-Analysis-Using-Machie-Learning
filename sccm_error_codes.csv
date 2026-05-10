@@ -1,0 +1,31 @@
+ErrorCode,Issue,Fix
+0x80070490,Content not found,Redistribute content to DP and validate package source path
+0x80070005,Access denied,Check NTFS permissions and SCCM client service account
+0x87D00692,Content download failed,Verify boundary groups and DP accessibility
+0x8024402F,Windows update timeout,Reset Windows Update components and check proxy
+0x80070002,File missing,Reinstall application or validate source location
+0x87D00324,App install timeout,Increase timeout or verify installer silent switches
+0x80072EE7,Network name not resolved,Check DNS and network connectivity
+0x87D00215,Software update install failed,Repair WUA and re-scan for updates
+0x80041002,WMI repository missing,Run WMI repair command on client
+0x80040154,Class not registered,Re-register COM components and repair SCCM client
+0x87D01106,Application detection failed,Review detection method configuration
+0x87D00325,Application installation failed,Check installer logs and retry deployment
+0x80004005,Unspecified error,Review SCCM logs for detailed failure information
+0x87D00607,Content transfer manager error,Verify distribution point health
+0x80070020,File in use,Close conflicting applications and retry
+0x87D00231,Update deployment evaluation failed,Refresh machine policy and retry scan
+0x87D01201,Detection rule mismatch,Correct application detection logic
+0x80070643,MSI installation failure,Repair Windows Installer service
+0x800705B4,Operation timeout,Increase timeout value and check connectivity
+0x87D00320,User cancelled installation,Verify deployment settings and retry
+0x80070057,Invalid parameter,Review deployment configuration parameters
+0x87D00267,CI version mismatch,Update client policy and content version
+0x87D00244,Software update still detected,Reboot device and perform update scan
+0x80072EFD,Connection failure,Check firewall and internet connectivity
+0x87D00314,Content hash mismatch,Redistribute package content
+0x80072EFE,Connection terminated unexpectedly,Verify network stability
+0x87D00664,No distribution points found,Assign correct boundary group
+0x80070422,Service disabled,Enable required Windows services
+0x87D01004,Dependency installation failed,Verify application dependencies
+0x800706BA,RPC server unavailable,Check RPC service and network communication
